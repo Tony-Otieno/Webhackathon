@@ -3,16 +3,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #000000ed;
 }
 
 header {
-    background-color: #0077cc;
+    background-color: 	#7e7b7b;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 1000;
     animation: fadeIn 2s ease-in;
@@ -61,7 +60,7 @@ nav ul li a:hover {
 section h2 {
     margin-bottom: 20px;
     font-size: 2em;
-    color: #0077cc;
+    color: #ccc200;
 }
 
 .about-content {
@@ -82,9 +81,9 @@ section h2 {
 .service, .portfolio-item, .certificate-item, .detailed-project, .education-item, .testimonial {
     margin: 20px 0;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #7e7b7b;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #7e7b7b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -108,7 +107,7 @@ section h2 {
 .contact input, .contact textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #7e7b7b;
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -117,7 +116,7 @@ section h2 {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #0077cc;
+    background-color: #7e7b7b;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
@@ -128,7 +127,7 @@ section h2 {
 }
 
 footer {
-    background-color: #0077cc;
+    background-color: #7e7b7b;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -178,6 +177,36 @@ footer {
     height: 200px;
 }
 #about img {
-    width: 2000px;
+    width: 1000px;
     height: 1000px;
+    
+}
+.detailed1-project{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e6eaed;
+    font-size: larger;
+}
+.detailed-project1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    font-size: larger;
+    background-color:  #353839;
+}
+
+#about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d1d1d1;
+    font-size: larger;
+}
+#certificates{
+    color: #fff;
+}
+#education{
+    color: #fff;    
+}
+#testimonials{
+    color: #fff;
+}
+#contact{
+    color: #fff;
 }
